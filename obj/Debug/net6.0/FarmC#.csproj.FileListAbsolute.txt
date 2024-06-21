@@ -1,0 +1,15 @@
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\bin\Debug\net6.0\FarmC#.exe
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\bin\Debug\net6.0\FarmC#.deps.json
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\bin\Debug\net6.0\FarmC#.runtimeconfig.json
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\bin\Debug\net6.0\FarmC#.dll
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\bin\Debug\net6.0\FarmC#.pdb
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\FarmC#.csproj.AssemblyReference.cache
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\FarmC#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\FarmC#.AssemblyInfoInputs.cache
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\FarmC#.AssemblyInfo.cs
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\FarmC#.csproj.CoreCompileInputs.cache
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\FarmC#.dll
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\refint\FarmC#.dll
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\FarmC#.pdb
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\FarmC#.genruntimeconfig.cache
+c:\Users\19176\OneDrive\Documents\Programming\C#\FarmC#\obj\Debug\net6.0\ref\FarmC#.dll
