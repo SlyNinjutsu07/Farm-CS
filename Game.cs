@@ -18,7 +18,7 @@ class Game{
         farm:
         throw new NotImplementedException();*/
         
-        string[][] map;
+        /*string[][] map;
         string[] filetext = File.ReadAllLines("file.txt");
 
         map = new string[filetext.Length][];
@@ -35,8 +35,16 @@ class Game{
                 Write(map[i][j]);
             }
             WriteLine();
-        }
+        }*/
 
-        ReadKey();
+        
+        Farm f = new Farm();
+        farm:
+        f.PrintFarm();
+        f.Move();
+        Clear();
+        goto farm;
+
+        //ReadKey();
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\FarmC#.csproj": {}
+    "C:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\FarmC#.csproj": {}
   },
   "projects": {
-    "c:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\FarmC#.csproj": {
+    "C:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\FarmC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\FarmC#.csproj",
+        "projectUniqueName": "C:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\FarmC#.csproj",
         "projectName": "FarmC#",
-        "projectPath": "c:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\FarmC#.csproj",
+        "projectPath": "C:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\FarmC#.csproj",
         "packagesPath": "C:\\Users\\19176\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\obj\\",
+        "outputPath": "C:\\Users\\19176\\OneDrive\\Documents\\Programming\\C#\\FarmC#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\19176\\AppData\\Roaming\\NuGet\\NuGet.Config",
