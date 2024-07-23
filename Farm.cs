@@ -43,7 +43,7 @@ public class Farm{
                      * the selectedCrop coords
                      */
                     ForegroundColor = Yellow;
-                    if(CropSelected(i,j))
+                    if(CropSelected(j,i))
                     {
                         BackgroundColor = White;
                         Write(farm[i, j]);
@@ -82,10 +82,8 @@ public class Farm{
     
     public void SetPos(int x, int y){
         try{
-            //farm[playerY, playerX] = " ";
             if (farm[playerY + y, playerX + x] != " ")
             {
-                farm[playerY, playerX] = " ";
                 selectedCropX = playerX + x;
                 selectedCropY = playerY + y;
                 return;
