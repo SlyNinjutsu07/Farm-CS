@@ -9,7 +9,7 @@ public class Farm{
     private int playerX, playerY;
 
     //Highlighted Crop
-    private int selectedCropX, selectedCropY;
+    private int selectedCropX = -1, selectedCropY = -1;
 
     //Farm
     private string[,] farm = 
@@ -35,13 +35,6 @@ public class Farm{
             {
                 if(farm[i,j] != player.ToString())
                 {
-                    #region ISSUE
-                    /* Issue with crop selection is deleting
-                     * the highlighting afterwards
-                     * 
-                     * -> Might be something with SetPos and 
-                     * the selectedCrop coords
-                     */
                     ForegroundColor = Yellow;
                     if(CropSelected(j,i))
                     {
@@ -51,7 +44,6 @@ public class Farm{
                         Write(" ");
                     } else Write(farm[i, j] + " ");
                     ResetColor();
-                    #endregion
                 } else if(farm[i,j] == player.ToString())
                 {
                     ForegroundColor = Red;
@@ -77,6 +69,9 @@ public class Farm{
             case ConsoleKey.RightArrow:
             SetPos(1, 0);
             break;
+            case ConsoleKey.Escape:
+                Environment.Exit(0);
+                break;
         }
     }
     
@@ -92,6 +87,8 @@ public class Farm{
             {
                 farm[playerY, playerX] = " ";
                 farm[playerY + y, playerX + x] = player.ToString();
+                selectedCropX = -1;
+                selectedCropY = -1;
             }
         } catch (IndexOutOfRangeException){
             Write("\n\nOut of bounds!");
