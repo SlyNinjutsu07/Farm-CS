@@ -13,37 +13,20 @@ class Game{
         mm.ReadInput();
         Clear();
         if(!mm.GameStart) goto mainmenu;
-        else goto farm;
+        else goto farm;*/
 
-        farm:
-        throw new NotImplementedException();*/
-        
-        /*string[][] map;
-        string[] filetext = File.ReadAllLines("file.txt");
-
-        map = new string[filetext.Length][];
-
-        for(int i = 0; i < filetext.Length; i++){
-            map[i] = new string[filetext[i].Length];
-            for(int j = 0; j < filetext[i].Length; j++){
-                map[i][j] = filetext[i].Substring(j, 1);
-            }
-        }
-
-        for(int i = 0; i < map.Length; i++){
-            for(int j = 0; j < map[i].Length; j++){
-                Write(map[i][j]);
-            }
-            WriteLine();
-        }*/
-
-        
-        Farm f = new Farm();
+        /*Farm f = new Farm();
         farm:
         f.PrintFarm();
         f.Move();
         Clear();
-        goto farm;
+        goto farm;*/
+
+        //inv:
+        Inventory i = new Inventory();
+        i.PrintOptions();
+        //Clear();
+        //goto inv;
 
         //ReadKey();
     }
